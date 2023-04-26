@@ -278,7 +278,7 @@ with st.expander("See About Disease "):
     #     i+=1;
     #     break;
 with st.expander("See About Medical Test  "):
-    df=pd.read_csv('symptom_test.csv')
+    df=pd.read_csv('Symptom_Test.csv')
     disease=str(ans);
     df_new = df[df['Disease'] == disease]
     i=1;
